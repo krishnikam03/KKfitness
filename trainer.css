@@ -1,0 +1,399 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Lilita One", cursive;
+}
+
+body{
+   background-color:#0f0f0f;
+}
+
+.head{
+    background:black;
+    height:70px;
+    width:100%;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+.home{
+    margin-left: 650px;
+}
+
+
+.Train{
+    height: 600px;
+    width: 100%;
+    
+}
+
+
+.nav1{
+    display:flex;
+    align-items:center;
+    gap:32px;
+}
+
+.nav1 a{
+    color:white;
+    text-decoration:none;
+}
+
+.icon{
+    border:1px solid white;
+    border-radius:50%;
+    padding:8px;
+}
+body {
+    background: #111;
+    color: white;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    width: 100%;
+
+    padding: 20px 8%;
+
+    background: #000;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #f5c400;
+}
+
+.logo span {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: #f5c400;
+}
+
+
+/* ================= HEADER ================= */
+
+.trainer-header {
+    text-align: center;
+
+    padding: 70px 20px 45px;
+}
+
+.trainer-header h1 {
+    font-size: 48px;
+
+    margin-bottom: 15px;
+}
+
+.trainer-header h1 span {
+    color: #f5c400;
+}
+
+.trainer-header p {
+    color: #aaa;
+
+    font-size: 18px;
+}
+
+
+/* ================= TRAINERS ================= */
+
+.trainers {
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: 20px auto 80px;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+
+/* ================= CARD ================= */
+
+.trainer-card {
+    background: #1a1a1a;
+
+    border: 1px solid #333;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    transition: 0.3s;
+}
+
+.trainer-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #f5c400;
+
+    box-shadow: 0 10px 30px rgba(245, 196, 0, 0.15);
+}
+
+
+/* ================= IMAGE ================= */
+
+.trainer-img {
+    width: 45%;
+
+    min-height: 350px;
+
+    overflow: hidden;
+}
+
+.trainer-img img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.4s;
+}
+
+.trainer-card:hover .trainer-img img {
+    transform: scale(1.05);
+}
+
+
+/* ================= INFO ================= */
+
+.trainer-info {
+    width: 55%;
+
+    padding: 30px 25px;
+}
+
+.trainer-info h2 {
+    color: #f5c400;
+
+    font-size: 26px;
+
+    margin-bottom: 8px;
+}
+
+.trainer-info h3 {
+    font-size: 15px;
+
+    color: white;
+
+    margin-bottom: 18px;
+}
+
+.trainer-info p {
+    color: #aaa;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* ================= EXPERIENCE ================= */
+
+.experience {
+    color: #aaa;
+
+    margin-bottom: 25px;
+}
+
+.experience span {
+    color: #f5c400;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    margin-right: 8px;
+}
+
+
+/* ================= BUTTON ================= */
+
+.trainer-btn {
+    display: inline-block;
+
+    padding: 12px 18px;
+
+    background: #f5c400;
+
+    color: #000;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+.trainer-btn:hover {
+    background: white;
+}
+
+
+/* ================= CTA ================= */
+
+.trainer-cta {
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: 0 auto 70px;
+
+    padding: 50px 20px;
+
+    text-align: center;
+
+    background: #f5c400;
+
+    color: #000;
+
+    border-radius: 12px;
+}
+
+.trainer-cta h2 {
+    font-size: 35px;
+
+    margin-bottom: 12px;
+}
+
+.trainer-cta p {
+    font-size: 18px;
+
+    margin-bottom: 25px;
+}
+
+.trainer-cta a {
+    display: inline-block;
+
+    padding: 13px 30px;
+
+    background: #000;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+.trainer-cta a:hover {
+    background: #222;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #000;
+
+    text-align: center;
+
+    padding: 25px;
+
+    color: #888;
+}
+
+footer span {
+    color: #f5c400;
+}
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .trainers {
+        grid-template-columns: 1fr;
+
+        max-width: 650px;
+    }
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+    .nav-links {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .trainer-header h1 {
+        font-size: 35px;
+    }
+
+    .trainer-card {
+        flex-direction: column;
+    }
+
+    .trainer-img {
+        width: 100%;
+
+        height: 350px;
+
+        min-height: 0;
+    }
+
+    .trainer-info {
+        width: 100%;
+    }
+}
